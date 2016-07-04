@@ -8,9 +8,71 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sd_dtu.apkaupdate.VerifyActivity">
-
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/rqstbtn"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:text="REQUEST OTP" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/Mobile"
+        android:layout_above="@+id/rqstbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:hint="Mobile No." />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Email"
+        android:hint="Email"
+        android:layout_above="@+id/Mobile"
+        android:layout_toRightOf="@+id/radioGroup"
+        android:layout_toEndOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/Mobile"
+        android:layout_toStartOf="@+id/Mobile"
+        android:layout_alignTop="@+id/Email"
+        android:layout_alignBottom="@+id/Mobile"
+        android:id="@+id/radioGroup"
+        android:nestedScrollingEnabled="false"
+        android:clickable="false">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_marginTop="10dp"
+            android:onClick="radCheck"
+            android:clickable="false"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:layout_below="@+id/radioGroup"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:onClick="radCheck"
+            android:checked="false" />
+
+    </RadioGroup>
+
 </RelativeLayout>
