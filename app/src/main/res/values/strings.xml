@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">ApkaUpdate</string>
+
+    <string-array name="District">
+        <item>Outer</item>
+    </string-array>
+
+    <string-array name="Outer_District_PS">
+
+        <item>NARELA</item>
+        <item>ALIPUR</item>
+        <item>SAMAI PUR BADLI</item>
+        <item>VIJAY VIHAR</item>
+        <item>SOUTH ROHINI</item>
+        <item>SHAHBAD DAIRY</item>
+        <item>MANGOL PURI</item>
+        <item>BEGUM PUR</item>
+        <item>SULTAN PURI</item>
+        <item>K.N.KATJU MARG</item>
+        <item>AMAN VIHAR</item>
+        <item>NORTH ROHINI</item>
+        <item>KANJHAWLA</item>
+        <item>PRASHANT VIHAR</item>
+        <item>BAWANA</item>
+
+    </string-array>
+
+    <string-array name="IO_Shahbad">
+        <item>Harish</item>
+        <item>Other IO(specify mobile number)</item>
+    </string-array>
+
+    <string-array name="Query">
+        <item>When is my court date?</item>
+        <item>Custom Query(100 characters)</item>
+    </string-array>
 </resources>
