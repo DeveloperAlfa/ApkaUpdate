@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 /**
  * Created by sam AR on 6/4/2016.
@@ -42,6 +43,13 @@ public class QueryActivity extends Activity{
 
         donedd = (Button) findViewById(R.id.dropdownbtn);
         donedd.setMovementMethod(new ScrollingMovementMethod());
+
+        donedd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(QueryActivity.this,"Your Query is Submitted!!",Toast.LENGTH_LONG).show();
+            }
+        });
 
         districtadapter = ArrayAdapter.createFromResource(this, R.array.District, R.layout.support_simple_spinner_dropdown_item);
         districtadapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);

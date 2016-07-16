@@ -2,15 +2,26 @@ package sd_dtu.apkaupdate;
 
 import android.content.Intent;
 import android.os.CountDownTimer;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+
 
 public class OtpCheck extends AppCompatActivity {
     TextView Text;
     TextView resendotp;
     boolean isCounterRunning=false;
+    EditText otp;
+    String otpstr;
+
+
+    private Handler handler=new Handler();
 
 
 
@@ -21,6 +32,11 @@ public class OtpCheck extends AppCompatActivity {
         setContentView(R.layout.activity_otp_check);
         Text=(TextView)findViewById(R.id.time);
         resendotp=(TextView)findViewById(R.id.resend);
+        otp=(EditText)findViewById(R.id.enterOTP);
+
+
+
+
 
         final CountDownTimer countDownTimer=new CountDownTimer(180000, 1000) {
 
@@ -61,8 +77,27 @@ public class OtpCheck extends AppCompatActivity {
 
 
     public void onclick(View view){
-        Intent intent=new Intent(OtpCheck.this,QueryActivity.class);
-        startActivity(intent);
+
+        otpstr=otp.getText().toString();
+        if(TextUtils.isEmpty(otpstr)){
+            Toast.makeText(OtpCheck.this,"Error!! Wrong Otp try again!!", Toast.LENGTH_LONG).show();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent =new Intent(OtpCheck.this,VerifyActivity.class);
+                    startActivity(intent);
+                }
+            },2500);
+        }
+
+        else{
+            Intent intent=new Intent(OtpCheck.this,QueryActivity.class);
+            startActivity(intent);
+        }
+
+
     }
+
+
 
 }
