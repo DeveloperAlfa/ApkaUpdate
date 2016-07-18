@@ -5,6 +5,15 @@
         <item>Outer</item>
     </string-array>
 
+    <string-array name="QUERY">
+        <item>None</item>
+        <item>Query1</item>
+        <item>Query2</item>
+        <item>Query3</item>
+        <item>Query4</item>
+        <item>Query5</item>
+    </string-array>
+
     <string-array name="Outer_District_PS">
 
         <item>NARELA</item>

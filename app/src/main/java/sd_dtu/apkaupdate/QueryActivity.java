@@ -17,7 +17,7 @@ import android.widget.Toast;
 public class QueryActivity extends Activity{
 
 
-    Spinner districtsp,pstationsp,statussp;
+    Spinner districtsp,pstationsp,statussp,querysp;
     EditText fillnodd;
     Button donedd;
     EditText Name,Query;
@@ -27,6 +27,7 @@ public class QueryActivity extends Activity{
     ArrayAdapter<CharSequence> districtadapter;
     ArrayAdapter<CharSequence> policestationadapter;
     ArrayAdapter<CharSequence> statusadapter;
+    ArrayAdapter<CharSequence> queryadapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,10 +36,12 @@ public class QueryActivity extends Activity{
         districtsp = (Spinner) findViewById(R.id.districtspinner);
         pstationsp = (Spinner) findViewById(R.id.police_station_spinner);
         statussp=(Spinner)findViewById(R.id.statusspinner);
+        querysp=(Spinner)findViewById(R.id.queryspinner);
         fillnodd = (EditText) findViewById(R.id.fillno);
         Name = (EditText) findViewById(R.id.name);
         Query=(EditText)findViewById(R.id.customquery);
         Name.setEnabled(false);
+        Query.setEnabled(false);
         fillnodd.setMovementMethod(new ScrollingMovementMethod());
 
         donedd = (Button) findViewById(R.id.dropdownbtn);
@@ -48,6 +51,40 @@ public class QueryActivity extends Activity{
             @Override
             public void onClick(View view) {
                 Toast.makeText(QueryActivity.this,"Your Query is Submitted!!",Toast.LENGTH_LONG).show();
+            }
+        });
+
+
+        queryadapter=ArrayAdapter.createFromResource(this,R.array.QUERY,R.layout.support_simple_spinner_dropdown_item);
+        queryadapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        querysp.setAdapter(queryadapter);
+        querysp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+                switch (i){
+                    case 0:
+                        Query.setEnabled(true);
+                        break;
+                    case 1:
+                        Query.setEnabled(false);
+                        break;
+                    case 2:
+                        Query.setEnabled(false);
+                        break;
+                    case 3:
+                        Query.setEnabled(false);
+                        break;
+                    case 4:
+                        Query.setEnabled(false);
+                        break;
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
             }
         });
 
