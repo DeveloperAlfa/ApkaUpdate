@@ -84,8 +84,7 @@ public class OtpCheck extends AppCompatActivity {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    Intent intent =new Intent(OtpCheck.this,VerifyActivity.class);
-                    startActivity(intent);
+
                 }
             },2500);
         }
