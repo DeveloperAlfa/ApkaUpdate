@@ -168,14 +168,9 @@
                     android:textColor="#FFFFFF"
 
 
-                    android:layout_width="150dp"
+                    android:layout_width="125dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/buttonshape"
-                    android:shadowColor="#ED4D13"
-                    android:shadowDx="20"
-                    android:shadowDy="20"
-                    android:shadowRadius="25"
-
+                    android:background="@drawable/butshape"
                     android:text="Submit Query"
                     android:id="@+id/dropdownbtn"
                     android:layout_alignParentBottom="true"
