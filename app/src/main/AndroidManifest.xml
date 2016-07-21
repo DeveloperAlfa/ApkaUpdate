@@ -18,7 +18,8 @@
         <activity android:name=".OtpCheck" />
         <activity android:name=".QueryActivity" />
         <activity android:name=".VerifyActivity" />
-        <activity android:name=".AllQueries"></activity>
+        <activity android:name=".AllQueries" />
+        <activity android:name=".DisplayEnquire"></activity>
     </application>
 
 </manifest>

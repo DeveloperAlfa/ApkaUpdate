@@ -43,7 +43,7 @@
         android:id="@+id/enterOTP"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:hint="       Enter OTP"
+        android:hint=" Enter OTP"
         android:nestedScrollingEnabled="false"
         android:background="@drawable/editshape"
         style="Phone" />

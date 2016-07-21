@@ -1,6 +1,7 @@
 package sd_dtu.apkaupdate;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -51,6 +52,8 @@ public class QueryActivity extends Activity{
             @Override
             public void onClick(View view) {
                 Toast.makeText(QueryActivity.this,"Your Query is Submitted!!",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(QueryActivity.this,AllQueries.class);
+                startActivity(intent);
             }
         });
 
