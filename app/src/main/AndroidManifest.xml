@@ -20,6 +20,7 @@
         <activity android:name=".VerifyActivity" />
         <activity android:name=".AllQueries" />
         <activity android:name=".DisplayEnquire"></activity>
+        <activity android:name=".DisplayDetails"></activity>
     </application>
 
 </manifest>

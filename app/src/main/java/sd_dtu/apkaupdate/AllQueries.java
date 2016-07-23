@@ -31,13 +31,13 @@ public class AllQueries extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent,View view,int position,long id){
                 switch(position){
-                    case 1: Intent questioni=new Intent(AllQueries.this,DisplayEnquire.class);
+                    case 1: Intent questioni=new Intent(AllQueries.this,DisplayDetails.class);
                         startActivity(questioni);
                         break;
-                    case 0:Intent notesi=new Intent(AllQueries.this,DisplayEnquire.class);
+                    case 0:Intent notesi=new Intent(AllQueries.this,DisplayDetails.class);
                         startActivity(notesi);
                         break;
-                    case 2:Intent ebooksi=new Intent(AllQueries.this,DisplayEnquire.class);
+                    case 2:Intent ebooksi=new Intent(AllQueries.this,DisplayDetails.class);
                         startActivity(ebooksi);
                         break;
                 }
