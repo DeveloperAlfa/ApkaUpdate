@@ -282,7 +282,6 @@
         android:layout_height="50dp"
         android:text="Complaint Button"
         android:background="@drawable/butshape"
-        android:layout_gravity="bottom"
         android:textColor="#FFFFFF"
         />
 </LinearLayout>

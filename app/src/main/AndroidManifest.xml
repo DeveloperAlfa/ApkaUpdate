@@ -19,8 +19,9 @@
         <activity android:name=".QueryActivity" />
         <activity android:name=".VerifyActivity" />
         <activity android:name=".AllQueries" />
-        <activity android:name=".DisplayEnquire"></activity>
-        <activity android:name=".DisplayDetails"></activity>
+        <activity android:name=".DisplayEnquire" />
+        <activity android:name=".DisplayDetails" />
+        <activity android:name=".MenuActivity"></activity>
     </application>
 
 </manifest>
