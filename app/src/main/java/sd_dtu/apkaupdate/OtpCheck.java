@@ -90,7 +90,7 @@ public class OtpCheck extends AppCompatActivity {
         }
 
         else{
-            Intent intent=new Intent(OtpCheck.this,QueryActivity.class);
+            Intent intent=new Intent(OtpCheck.this,MenuActivity.class);
             startActivity(intent);
         }
 
