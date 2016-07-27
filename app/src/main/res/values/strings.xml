@@ -35,69 +35,53 @@
     </string-array>
 
     <string-array name="IO_Shahbad0">
-        <item>Harish1</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad1">
-        <item>Harish</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad2">
-        <item>Harish2</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad3">
-        <item>Harish3</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad4">
-        <item>Harish4</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad5">
-        <item>Harish5</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad6">
-        <item>Harish6</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad7">
-        <item>Harish7</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad8">
-        <item>Harish8</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad9">
-        <item>Harish9</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad10">
-        <item>Harish10</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad11">
-        <item>Harish11</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad12">
-        <item>Harish12</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad13">
-        <item>Harish13</item>
-        <item>Other IO(specify mobile number)</item>
-    </string-array>
-    <string-array name="IO_Shahbad14">
-        <item>Harish14</item>
-        <item>Other IO(specify mobile number)</item>
+        <item>Ashok Kumar</item>
+        <item>Avinish Kumar</item>
+        <item>Rajender Singh</item>
+        <item>MD. Imtyaz Ali</item>
+        <item>Darshana</item>
+        <item>Gaurav</item>
+        <item>Kulveer Singh</item>
+        <item>Mahesh</item>
+        <item>Naresh</item>
+        <item>Satish Chander</item>
+        <item>Ved Singh</item>
+        <item>Sat Pal Singh</item>
+        <item>Ved Bhardwaj</item>
+        <item>Rimpi Devi</item>
+        <item>Urmila</item>
+        <item>Devender</item>
+        <item>Ajay</item>
+        <item>Neeraj</item>
+        <item>Ravi</item>
+        <item>Sandeep</item>
+        <item>Kusham Lata</item>
+        <item>Om Prakash</item>
+        <item>Ranbir Singh</item>
+        <item>Bal Kishan</item>
+        <item>Ajay Kumar</item>
+        <item>Awaran</item>
+        <item>Amit</item>
+        <item>Anil</item>
+        <item>Arvind</item>
+        <item>Devender</item>
+        <item>Gurucharan</item>
+        <item>Leela Dhar</item>
+        <item>Mahesh Oraon</item>
+        <item>Neeraj</item>
+        <item>Pardeep</item>
+        <item>Pradeep</item>
+        <item>Phool Kumar</item>
+        <item>Rajbir</item>
+        <item>Rajender</item>
+        <item>Sachin</item>
+        <item>Satnarayan</item>
+        <item>Satbir</item>
+        <item>Seema Shaka</item>
+        <item>Umesh</item>
+        <item>Anita</item>
+        <item>Seema</item>
+        <item>Sunita Devi</item>
     </string-array>
 
-
-    <string-array name="Query">
-        <item>When is my court date?</item>
-        <item>Custom Query(100 characters)</item>
-    </string-array>
 </resources>

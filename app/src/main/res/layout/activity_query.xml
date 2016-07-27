@@ -32,7 +32,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="20dp"
                     android:layout_marginLeft="20dp"
                     android:textColor="#FFFFFF" />
 
@@ -46,7 +46,7 @@
                     android:layout_alignTop="@+id/police_station_spinner"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginLeft="20dp"
                     android:textColor="#FFFFFF" />
 
@@ -102,7 +102,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignLeft="@+id/dropdownbtn"
                     android:layout_alignStart="@+id/dropdownbtn"
-                    android:layout_marginTop="30dp" />
+                    android:layout_marginTop="20dp" />
 
                 <Spinner
                     android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
                     android:inputType="textPersonName"
                     android:ems="10"
                     android:id="@+id/name"
-                    android:hint="  if other specify mobile"
+                    android:hint="specify mobile"
                     android:background="@drawable/editshape"/>
 
                 <Spinner
