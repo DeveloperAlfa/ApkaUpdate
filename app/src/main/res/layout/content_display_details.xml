@@ -21,12 +21,20 @@
 
         android:layout_gravity="center_horizontal"/>
 
+
+
+
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="305dp"
         android:fillViewport="true"
         android:layout_gravity="bottom"
         android:layout_marginTop="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -255,6 +263,8 @@
 
     </TableLayout>
         </LinearLayout>
+
+        </ScrollView>
     </HorizontalScrollView>
 
     <Button

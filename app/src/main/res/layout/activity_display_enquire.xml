@@ -9,5 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sd_dtu.apkaupdate.DisplayEnquire"
     android:background="#607D8B">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+        </HorizontalScrollView>
+    </ScrollView>
 
 </RelativeLayout>

@@ -9,6 +9,15 @@
     android:background="#607D8B"
     android:descendantFocusability="blocksDescendants">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
@@ -35,5 +44,6 @@
         android:choiceMode="singleChoice"
         android:layout_below="@+id/imageView2"
         android:layout_marginTop="20dp" />
-
+</RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
